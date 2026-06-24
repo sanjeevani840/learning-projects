@@ -1,0 +1,311 @@
+*{
+    padding :0px;
+    margin: 0px;
+       box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+body{
+    background: linear-gradient(to bottom, #ff6200, #e3e6e6);
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+/*1st box*/
+#logo{
+    height: 55px;
+    width: 114px;
+
+    background-image: url("amazelogo.jpg");
+    background-size: cover;
+  margin-left:5px;
+
+
+}
+ .border{
+     border:1.5px solid transparent; 
+}
+
+/*2nd box*/
+.nav-address{
+   border:1.5px solid transparent;
+   padding:5px 0px 5px 5px;
+}
+/* .nav-address:hover{
+     border:1.5px solid white;
+} */
+ .border:hover{
+    border:1.5px solid white;
+}
+#address1{
+    font-size: 0.85rem;
+    color:#CCCCCC;
+    margin-left:15px;
+
+}
+#address2{
+    font-size: 0.93rem;
+    display:flex;
+    color:#ffffff;
+}
+/*3rd box*/
+.searchbar{
+    display:flex;
+    background-color: rgb(251, 173, 6);
+    width: 58%;
+    height: 40px;
+
+border:none;
+border-radius: 6px;
+}
+#searchlogo{
+    
+    width:55px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 1.2rem;
+     color:#0f1111;
+}
+#searchlogo i{
+    color:#0f1111;
+}
+#searchtext{
+    width:100%;
+    border:none;
+    padding:13px 10px 10px 0px;
+    font-size:1rem;
+}
+#dropdown{
+    width: 55px;
+    background-color: #e6e6e6;
+    color:#0f1111;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border:none;
+}
+/*Box-4*/
+#flagpic{
+    background-image: url("us flag.jpg");
+    background-size: cover;
+    height: 17px;
+    width:50%;
+    display:inline-block;
+}
+.usflag{
+    height: 50px;
+    width: 52px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#eng{
+    font-weight: 700;
+    font-size: 0.85;
+}
+/*Box-5*/
+.light{
+    font-size: 0.75rem;
+}
+.weight{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.searchbar:hover{
+    border:2px solid orange;
+}
+.cart i{
+    font-size:  x-large;
+}
+.cart{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+   align-items: center;
+    justify-content: space-evenly;
+}
+.allopt{
+   font-size:0.87rem;
+   display:inline-block;
+}
+.panelopt p{
+    display:inline-block;
+    margin-left:15px;
+    font-size: 0.87rem;
+}
+.panelopt{
+    width:75%;
+}
+.rightOpt{
+    font-size: 0.92rem;
+    font-weight: 700;
+}
+.herosection{
+    background-image: url("img1.jpg");
+    height:400px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+}
+#heromsg{
+    background-color: white;
+    height: 40px;
+    width:90%;
+    position: relative;
+    bottom:25px;
+    color:#0f1111; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+#heromsg a{
+    color:#007185;
+    font-size: 0.85rem;
+}
+.content{
+    display:flex;
+    background: linear-gradient(to bottom, #ff6200, #e3e6e6);
+    justify-content: space-evenly;
+
+}
+.Box{
+    width:23%;
+    height:430px;
+  
+    background-color: white;
+
+
+}
+.boxContent h2{
+    color:black;
+}
+.boxContent p{
+    color:#007185;
+     font-size:0.85rem;
+}
+.boxContent{
+    width:100%;
+    height:100%;
+}
+.boxContent h2{
+    margin-top:20px;
+    margin-left:15px;
+    margin-bottom: 10px;
+
+}
+.boxContent p{
+    margin-left:15px;
+}
+.box-image{
+    width:90%;
+    height:75%;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:0.85rem;
+     margin-left: 1rem;
+}
+.boxesContent{
+    width:100%;
+    height:100%;
+}
+.boxesContent h2{
+    margin-top:20px;
+    margin-left:15px;
+    margin-bottom: 10px;
+     color:black;
+
+}
+.boxesContent p{
+    margin-left:15px;
+    color:#007185;
+    margin-top:15px;
+    font-size:0.85rem;
+}
+.boxGrid{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   gap:15px;
+   
+}
+.boxGrid p{
+    display:inline-block;
+}
+.smalli{
+   height:120px;
+   background-size: cover;
+   background-position: center;
+}
+.boxes{
+    margin:2px 10px 0px 10px;
+    font-size: 0.85rem;
+}
+.horizontal-Box{
+    height:282px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imag{
+   
+    height:200px;
+    background-size: cover;
+}
+
+#heading{
+    height:30px;
+    color:black;
+    margin-top:10px;
+}
+.hori{
+    background-color: white;
+}
+footer{
+    margin-top: 15px;
+}
+.footer-1{
+    height: 50px;
+    background-color: #37475a;
+/* Could have used flex too but another way is also there but flex is better */
+   }
+.footer-1 p{
+font-size: 0.85rem;
+ text-align: center;
+ position:relative;
+ top:20px;
+}
+.footer-2{
+    height:500px;
+    background-color: #232f3e;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin:5px;
+    color:#dddddd;
+}
+ul p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin:10px;
+}
+footer-3{
+    background-color:#232f3e;
+    height:70px;
+    border-top:0.5px solid white;
+}
